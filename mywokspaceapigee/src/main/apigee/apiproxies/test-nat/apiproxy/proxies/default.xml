@@ -1,0 +1,8 @@
+<ProxyEndpoint name="default">
+	<HTTPProxyConnection>
+		<BasePath>/test-nat</BasePath>
+	</HTTPProxyConnection>
+	<RouteRule name="default-route">
+		<TargetEndpoint>default</TargetEndpoint>
+	</RouteRule>
+</ProxyEndpoint>
